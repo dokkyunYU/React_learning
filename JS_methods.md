@@ -24,3 +24,21 @@ mylist.map((num) => `<li>${num}</li>`)
 // 결과 : [<li>1</li>, <li>2</li>, <li>3</li>]
 
 ```
+
+# forEach
+
+```js
+list.forEach((value, index, array) => {})
+
+//ex
+
+mylist = [1,2,3,4,5];
+mylist.forEach((value, index, array) => {
+  console.log(value, index, array);
+})
+// 1, 0, [1,2,3,4,5]
+// 2, 1, [1,2,3,4,5]
+// 3, 2, [1,2,3,4,5]
+// 4, 3, [1,2,3,4,5]
+// 5, 4, [1,2,3,4,5]
+```
